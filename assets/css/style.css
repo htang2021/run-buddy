@@ -1,3 +1,5 @@
+/* @import "global.css"; */
+
 * {
     margin: 0;
     padding: 0;
@@ -56,6 +58,7 @@ footer a {
 section {
     padding: 60px;
 }
+
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
