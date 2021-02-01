@@ -128,8 +128,6 @@ section {
 }
 /* End of hero form */
 /* Start of What We do */
-.intro {
-    text-align: center;
 }
 .intro p {
     line-height: 1.7;
@@ -137,16 +135,18 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* end of What We Do section */
 /* combining commonly used def's in the various sections */
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -156,7 +156,6 @@ section {
 }
 /* Start of What YOU Do section */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .steps div {
@@ -181,7 +180,7 @@ section {
 
 /*  STart of the Trainers section */
 .trainers {
-    text-align: center;
+    
 }
 .trainer {
     width: 900px;
@@ -204,6 +203,9 @@ section {
 }
 .text-right {
     text-align: right;
+}
+.flex-row {
+    display: flex;
 }
 .trainer-bio h3 {
     font-size: 32px;
@@ -268,30 +270,3 @@ section {
     color: #fce138;
 }
 /* REACH OUT STYLES END */
-
-/*
-.contact-info {
-    margin-top: 130px;
-    margin-left: 130px;
-    position: relative;
-    float: left;
-}
-.location-info {
-    color: whitesmoke;
-    padding: 80px;
-    line-height: 1.5;
-    text-align: left;
-    float: left;
-}
-.location-info h3 {
-    color:#fce138;
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-.location-info address {
-    margin-top: 20px;
-}
-.location-info address a {
-    color: #fce138;
-} 
-*/
