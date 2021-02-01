@@ -203,24 +203,26 @@ section {
     text-align: center;
     /*overflow:auto;*/
 }
-/*
+
 .reachout h2 {
-    display:table-column;
+    color: #fce138;
+    text-align: center;
 }
-*/
+
 .contact-info iframe {
     width: 400px;
     height: 400px;
+    display: inline-block;
 }
 /* Start of what suggested solution */
-.contact-info div {
+.location-info {
     width: 410px;
-   /* display: inline-block; */
+    display: inline;
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
-    float: left;
+    float: right;
 }
 .location-info div {
     width: 410px;
